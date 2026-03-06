@@ -1,0 +1,5 @@
+ROUTER_IP= "192.168.1.1"
+ROUTER_HOST= f"https://{ROUTER_IP}/api"
+USERNAME= "admin"
+PASSWORD= "Adminadmin.1"
+REQUEST_TIMEOUT_MS = 10000
