@@ -1,6 +1,6 @@
 from rich.console import Console
 from rich.table import Table
-from services.router_general_service import router_general_service
+from src.services.router_general_service import router_general_service
 
 console = Console()
 

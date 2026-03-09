@@ -1,5 +1,5 @@
 from rich.console import Console
-from services.relay_service import RelayService
+from src.services.relay_service import RelayService
 
 console = Console()
 

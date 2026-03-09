@@ -87,6 +87,23 @@ class RouterSshClient:
                 "success" : False,
                 "data" :  output
             }
+        
+    def upload_file(self, local_path: str, remote_path: str):
+
+        sftp = self.client.open_sftp()
+
+        try:
+
+            sftp.put(local_path, remote_path)
+
+            return True
+
+        except Exception as e:
+            
+            print("SFTP hatasi",e)
+            sftp.close()
+            return False
+
 
 
 

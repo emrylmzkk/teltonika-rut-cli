@@ -67,3 +67,9 @@ class RouterHealthService:
             "https" : self.ping_router_ports(443)
         }
     
+    def check_router_https(self):
+
+        return {
+            "https" : self.ping_router_ports(443)
+        }
+    

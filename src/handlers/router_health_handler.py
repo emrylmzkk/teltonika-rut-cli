@@ -1,5 +1,5 @@
 from rich.console import Console
-from services.router_health_service import RouterHealthService
+from src.services.router_health_service import RouterHealthService
 
 console = Console()
 

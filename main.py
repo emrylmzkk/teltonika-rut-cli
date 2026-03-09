@@ -1,9 +1,8 @@
 from rich.console import Console
 from rich.panel import Panel
-from services.connection.router_rest_client import RouterRestClient
-from handlers.relay_handler import handle_relay_reboot
-from handlers.router_health_handler import handle_check_router
-from handlers.router_general_handler import handle_get_firmware
+from src.handlers.relay_handler import handle_relay_reboot
+from src.handlers.router_health_handler import handle_check_router
+from src.handlers.router_general_handler import handle_get_firmware
 
 
 console = Console()
